@@ -32,15 +32,14 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    '@nuxt/typescript-build',
-    // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module',
-  ],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/stylelint-module'],
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/style-resources'],
+  styleResources: {
+    scss: ['./src/assets/scss/_variables.scss', './src/assets/scss/_mixin.scss'],
+  },
   /*
    ** Build configuration
    */
