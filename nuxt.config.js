@@ -1,3 +1,6 @@
+import Sass from 'sass';
+import Fiber from 'fibers';
+
 export default {
   mode: 'universal',
   srcDir: 'src',
@@ -48,5 +51,13 @@ export default {
      ** You can extend webpack config here
      */
     extend() {},
+    loaders: {
+      scss: {
+        implementation: Sass,
+        sassOptions: {
+          fiber: Fiber,
+        },
+      },
+    },
   },
 };
