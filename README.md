@@ -1,6 +1,6 @@
 # my-nuxt-template
 
-> After CORONA
+> My Nuxt.js Project Template
 
 ## Build Setup
 

@@ -6,7 +6,7 @@
         my-nuxt-template
       </h1>
       <h2 class="subtitle">
-        After CORONA
+        My Nuxt.js Project Template
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
